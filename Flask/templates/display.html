@@ -1,0 +1,123 @@
+<!DOCTYPY html>
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="static/display.css">
+		<title>
+			AgroMitra
+		</title>
+		<style>
+			body {
+				/* background-image:
+
+url('https://www.xmple.com/wallpaper/single-one-colour-solid-color-plain-azure-1920x1080-c-081c24-f-
+24.svg');*/
+
+				background-color: #fff;
+			}
+
+			/* header css */
+			.container {
+				background-color: white;
+				height: 60px;
+			}
+
+			#title {
+				color: white;
+				left: 30%;
+				position: absolute;
+				top: 2px;
+				font-size: 28px;
+			}
+
+			.heading {
+				background-color: #089A6A;
+				height: 70px;
+				top: 0;
+				left: 0;
+				right: 0;
+				position: absolute;
+				align-items: center !important;
+				justify-content: center !important;
+
+				align-content: center !important;
+				;
+			}
+
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+			}
+
+			li {
+				float: left;
+			}
+
+			li a {
+				background-color: #87ceeb;
+				border: none;
+				margin-top: 10px;
+				margin-left: 10px;
+				border-radius: 25%;
+				padding: 10px 20px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				text-decoration: none;
+				display: block;
+			}
+
+			/* Image styles*/
+			img {
+				float: left;
+			}
+
+			.paragraph {
+				color: #089A6A;
+				margin-top: 10%;
+				margin-left: 15%;
+				margin-right: 15%;
+			}
+
+			#submitbutton {
+				color: #fff;
+				background: #089A6A;
+
+				border: none;
+				width: 180px;
+				height: 35px;
+				margin-top: 20px;
+				margin-left: 5px;
+				border-radius: 50px;
+				transition: all .2s ease;
+				outline: none;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="heading">
+			<h1 id='title'>AgroMitra - Tomato Leaf Disease Detection Web App</h1>
+		</div>
+		<div>
+			<p class="paragraph"><img src="{{ url_for('static',
+
+filename='input_images/'+file_name)}}" alt="Pineapple" style="width:170px;height:170px;
+top:30%;margin-right: 5%;">
+
+			<h1 style="color: #089A6A;margin-left: 10%;">{{ text }}</h1>
+			<p style="color: #089A6A; width: 75%;margin-left: 10%;">{{ Treatment_disease
+
+				}}</p>
+			</p>
+		</div>
+		<button id='submitbutton' onclick="location.href='/'">Detect another leaf</button>
+	</body>
+
+	</html>

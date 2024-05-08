@@ -1,0 +1,15 @@
+Commands to run the file.
+
+Place this folder in the place of root directory
+
+# activate Virtual Environment
+Step 1 : detect_diesease\Scripts\activate
+
+Step 2 : cd API
+
+Step 3 : python app.py
+
+Step 4 : open another command prompt in same directory and run Step 1, 2, 3
+
+# You can change input image in 3rd line just place image path
+Step 5 : python request_test.py

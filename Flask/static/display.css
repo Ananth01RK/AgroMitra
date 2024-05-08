@@ -1,0 +1,53 @@
+body { 
+  /* background-image: url('https://www.xmple.com/wallpaper/single-one-colour-solid-color-plain-azure-1920x1080-c-081c24-f-24.svg');*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* header css */
+.container{
+      background-color: white;
+      height: 60px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  background-color: #87ceeb;
+  border: none;
+  margin-top:10px;
+  margin-left: 10px;
+  border-radius: 25%;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* Image styles*/
+
+img {
+  float: left;
+  margin-left: 15%;
+  margin-right: 20px;
+}
+
+.paragraph {
+  color: #000;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
